@@ -62,3 +62,7 @@ This encourages assigning:
 - **Experienced Assistant Referees** similarly for Assistant Referee roles
 
 The objective ensures high-quality officiating while maintaining fairness and feasibility across all assignments.
+
+### Data
+
+The dataset consists of anonymized scheduling data provided by the Tsinghua University Student Football Association. It covers 20 days of football matches.
