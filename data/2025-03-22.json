@@ -1,0 +1,349 @@
+{
+    "games": [
+        {
+            "game_id": 3682,
+            "time_begin": "2025-03-22 15:00:00",
+            "time_end": "2025-03-22 17:00:00",
+            "field": "Field_5",
+            "level_factor": 2
+        },
+        {
+            "game_id": 3722,
+            "time_begin": "2025-03-22 12:00:00",
+            "time_end": "2025-03-22 14:00:00",
+            "field": "Field_36",
+            "level_factor": 1
+        },
+        {
+            "game_id": 3723,
+            "time_begin": "2025-03-22 14:00:00",
+            "time_end": "2025-03-22 16:00:00",
+            "field": "Field_36",
+            "level_factor": 1
+        },
+        {
+            "game_id": 3724,
+            "time_begin": "2025-03-22 15:45:00",
+            "time_end": "2025-03-22 17:45:00",
+            "field": "Field_36",
+            "level_factor": 1
+        },
+        {
+            "game_id": 3725,
+            "time_begin": "2025-03-22 19:00:00",
+            "time_end": "2025-03-22 21:00:00",
+            "field": "Field_36",
+            "level_factor": 1
+        },
+        {
+            "game_id": 3726,
+            "time_begin": "2025-03-22 20:30:00",
+            "time_end": "2025-03-22 22:30:00",
+            "field": "Field_36",
+            "level_factor": 1
+        },
+        {
+            "game_id": 3735,
+            "time_begin": "2025-03-22 18:30:00",
+            "time_end": "2025-03-22 20:30:00",
+            "field": "Field_5",
+            "level_factor": 3
+        },
+        {
+            "game_id": 3737,
+            "time_begin": "2025-03-22 10:00:00",
+            "time_end": "2025-03-22 12:00:00",
+            "field": "Field_9",
+            "level_factor": 1
+        },
+        {
+            "game_id": 3738,
+            "time_begin": "2025-03-22 12:00:00",
+            "time_end": "2025-03-22 14:00:00",
+            "field": "Field_9",
+            "level_factor": 1
+        }
+    ],
+    "referees": [
+        {
+            "referee_id": 1206,
+            "available_slots": [
+                {
+                    "from": "2025-03-22 10:00:00",
+                    "to": "2025-03-22 14:30:00"
+                }
+            ],
+            "main_referee_experience": 277,
+            "assistant_referee_experience": 151
+        },
+        {
+            "referee_id": 2414,
+            "available_slots": [
+                {
+                    "from": "2025-03-22 15:00:00",
+                    "to": "2025-03-22 17:00:00"
+                }
+            ],
+            "main_referee_experience": 54,
+            "assistant_referee_experience": 100
+        },
+        {
+            "referee_id": 2777,
+            "available_slots": [
+                {
+                    "from": "2025-03-22 15:00:00",
+                    "to": "2025-03-22 18:00:00"
+                }
+            ],
+            "main_referee_experience": 67,
+            "assistant_referee_experience": 50
+        },
+        {
+            "referee_id": 3256,
+            "available_slots": [
+                {
+                    "from": "2025-03-22 10:00:00",
+                    "to": "2025-03-22 21:30:00"
+                }
+            ],
+            "main_referee_experience": 45,
+            "assistant_referee_experience": 51
+        },
+        {
+            "referee_id": 3260,
+            "available_slots": [
+                {
+                    "from": "2025-03-22 13:13:00",
+                    "to": "2025-03-22 23:13:00"
+                }
+            ],
+            "main_referee_experience": 147,
+            "assistant_referee_experience": 99
+        },
+        {
+            "referee_id": 3262,
+            "available_slots": [
+                {
+                    "from": "2025-03-22 14:00:00",
+                    "to": "2025-03-22 23:30:00"
+                }
+            ],
+            "main_referee_experience": 105,
+            "assistant_referee_experience": 79
+        },
+        {
+            "referee_id": 3263,
+            "available_slots": [
+                {
+                    "from": "2025-03-22 00:00:00",
+                    "to": "2025-03-23 00:00:00"
+                }
+            ],
+            "main_referee_experience": 135,
+            "assistant_referee_experience": 101
+        },
+        {
+            "referee_id": 3267,
+            "available_slots": [
+                {
+                    "from": "2025-03-22 12:00:00",
+                    "to": "2025-03-23 00:00:00"
+                }
+            ],
+            "main_referee_experience": 36,
+            "assistant_referee_experience": 133
+        },
+        {
+            "referee_id": 3276,
+            "available_slots": [
+                {
+                    "from": "2025-03-22 14:00:00",
+                    "to": "2025-03-22 16:00:00"
+                },
+                {
+                    "from": "2025-03-22 19:00:00",
+                    "to": "2025-03-22 23:00:00"
+                }
+            ],
+            "main_referee_experience": 7,
+            "assistant_referee_experience": 13
+        },
+        {
+            "referee_id": 3475,
+            "available_slots": [
+                {
+                    "from": "2025-03-22 14:00:00",
+                    "to": "2025-03-22 18:00:00"
+                },
+                {
+                    "from": "2025-03-22 20:00:00",
+                    "to": "2025-03-22 23:00:00"
+                }
+            ],
+            "main_referee_experience": 25,
+            "assistant_referee_experience": 27
+        },
+        {
+            "referee_id": 3518,
+            "available_slots": [
+                {
+                    "from": "2025-03-22 00:00:00",
+                    "to": "2025-03-23 00:00:00"
+                }
+            ],
+            "main_referee_experience": 9,
+            "assistant_referee_experience": 36
+        },
+        {
+            "referee_id": 3524,
+            "available_slots": [
+                {
+                    "from": "2025-03-22 00:00:00",
+                    "to": "2025-03-23 00:00:00"
+                }
+            ],
+            "main_referee_experience": 12,
+            "assistant_referee_experience": 61
+        },
+        {
+            "referee_id": 3533,
+            "available_slots": [
+                {
+                    "from": "2025-03-22 00:00:00",
+                    "to": "2025-03-23 00:00:00"
+                }
+            ],
+            "main_referee_experience": 31,
+            "assistant_referee_experience": 43
+        },
+        {
+            "referee_id": 3614,
+            "available_slots": [
+                {
+                    "from": "2025-03-22 18:00:00",
+                    "to": "2025-03-22 23:44:00"
+                }
+            ],
+            "main_referee_experience": 6,
+            "assistant_referee_experience": 44
+        },
+        {
+            "referee_id": 3640,
+            "available_slots": [
+                {
+                    "from": "2025-03-22 15:30:00",
+                    "to": "2025-03-23 00:00:00"
+                }
+            ],
+            "main_referee_experience": 1,
+            "assistant_referee_experience": 32
+        },
+        {
+            "referee_id": 7486,
+            "available_slots": [
+                {
+                    "from": "2025-03-22 12:00:00",
+                    "to": "2025-03-22 18:00:00"
+                }
+            ],
+            "main_referee_experience": 14,
+            "assistant_referee_experience": 66
+        },
+        {
+            "referee_id": 7490,
+            "available_slots": [
+                {
+                    "from": "2025-03-22 10:00:00",
+                    "to": "2025-03-22 12:00:00"
+                },
+                {
+                    "from": "2025-03-22 19:00:00",
+                    "to": "2025-03-22 23:00:00"
+                }
+            ],
+            "main_referee_experience": 2,
+            "assistant_referee_experience": 12
+        },
+        {
+            "referee_id": 7496,
+            "available_slots": [
+                {
+                    "from": "2025-03-22 00:00:00",
+                    "to": "2025-03-23 00:00:00"
+                }
+            ],
+            "main_referee_experience": 0,
+            "assistant_referee_experience": 15
+        },
+        {
+            "referee_id": 7503,
+            "available_slots": [
+                {
+                    "from": "2025-03-22 18:40:00",
+                    "to": "2025-03-22 21:00:00"
+                }
+            ],
+            "main_referee_experience": 18,
+            "assistant_referee_experience": 59
+        },
+        {
+            "referee_id": 7506,
+            "available_slots": [
+                {
+                    "from": "2025-03-22 01:20:00",
+                    "to": "2025-03-22 15:50:00"
+                },
+                {
+                    "from": "2025-03-22 18:00:00",
+                    "to": "2025-03-22 23:50:00"
+                }
+            ],
+            "main_referee_experience": 1,
+            "assistant_referee_experience": 42
+        },
+        {
+            "referee_id": 7523,
+            "available_slots": [
+                {
+                    "from": "2025-03-22 00:00:00",
+                    "to": "2025-03-23 00:00:00"
+                }
+            ],
+            "main_referee_experience": 5,
+            "assistant_referee_experience": 0
+        },
+        {
+            "referee_id": 7539,
+            "available_slots": [
+                {
+                    "from": "2025-03-22 14:00:00",
+                    "to": "2025-03-22 17:35:00"
+                }
+            ],
+            "main_referee_experience": 0,
+            "assistant_referee_experience": 0
+        },
+        {
+            "referee_id": 7550,
+            "available_slots": [
+                {
+                    "from": "2025-03-22 18:00:00",
+                    "to": "2025-03-22 22:00:00"
+                }
+            ],
+            "main_referee_experience": 2,
+            "assistant_referee_experience": 15
+        },
+        {
+            "referee_id": 7567,
+            "available_slots": [
+                {
+                    "from": "2025-03-22 00:00:00",
+                    "to": "2025-03-23 00:00:00"
+                }
+            ],
+            "main_referee_experience": 4,
+            "assistant_referee_experience": 25
+        }
+    ]
+}
