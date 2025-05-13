@@ -1,0 +1,57 @@
+{
+    "games": [
+        {
+            "game_id": 3779,
+            "time_begin": "2025-04-20 12:00:00",
+            "time_end": "2025-04-20 14:00:00",
+            "field": "Field_19",
+            "level_factor": 2
+        }    
+    ],
+    "referees": [
+        {
+            "referee_id": 2414,
+            "available_slots": [
+                {
+                    "from": "2025-04-20 12:00:00",
+                    "to": "2025-04-20 19:00:00"
+                }
+            ],
+            "main_referee_experience": 54,
+            "assistant_referee_experience": 100
+        },
+        {
+            "referee_id": 2777,
+            "available_slots": [
+                {
+                    "from": "2025-04-20 12:00:00",
+                    "to": "2025-04-21 00:00:00"
+                }
+            ],
+            "main_referee_experience": 67,
+            "assistant_referee_experience": 50
+        },
+        {
+            "referee_id": 3260,
+            "available_slots": [
+                {
+                    "from": "2025-04-20 00:00:00",
+                    "to": "2025-04-21 00:00:00"
+                }
+            ],
+            "main_referee_experience": 147,
+            "assistant_referee_experience": 99
+        },
+        {
+            "referee_id": 3263,
+            "available_slots": [
+                {
+                    "from": "2025-04-20 00:00:00",
+                    "to": "2025-04-21 00:00:00"
+                }
+            ],
+            "main_referee_experience": 135,
+            "assistant_referee_experience": 101
+        }
+    ]
+}
