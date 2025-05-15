@@ -1,0 +1,110 @@
+[
+    {
+        "game_id": 3741,
+        "main_referee": 7565,
+        "assistant_referees": [
+            3524,
+            3640
+        ],
+        "fourth_official": 7550
+    },
+    {
+        "game_id": 3743,
+        "main_referee": 2777,
+        "assistant_referees": [
+            3524,
+            7503
+        ],
+        "fourth_official": 7565
+    },
+    {
+        "game_id": 3745,
+        "main_referee": 7503,
+        "assistant_referees": [
+            1206,
+            7484
+        ],
+        "fourth_official": 3544
+    },
+    {
+        "game_id": 3751,
+        "main_referee": 3276,
+        "assistant_referees": [
+            7567,
+            7485
+        ],
+        "fourth_official": 3262
+    },
+    {
+        "game_id": 3752,
+        "main_referee": 3262,
+        "assistant_referees": [
+            3539,
+            7485
+        ],
+        "fourth_official": 7484
+    },
+    {
+        "game_id": 3753,
+        "main_referee": 3262,
+        "assistant_referees": [
+            3539,
+            3263
+        ],
+        "fourth_official": 7581
+    },
+    {
+        "game_id": 3754,
+        "main_referee": 7484,
+        "assistant_referees": [
+            3614,
+            3260
+        ],
+        "fourth_official": 3526
+    },
+    {
+        "game_id": 3757,
+        "main_referee": 2777,
+        "assistant_referees": [
+            3526,
+            3260
+        ],
+        "fourth_official": 7484
+    },
+    {
+        "game_id": 3759,
+        "main_referee": 1206,
+        "assistant_referees": [
+            3640,
+            2414
+        ],
+        "fourth_official": 3734
+    },
+    {
+        "game_id": 3761,
+        "main_referee": 7565,
+        "assistant_referees": [
+            3263,
+            7550
+        ],
+        "fourth_official": 2777
+    },
+    {
+        "game_id": 3763,
+        "main_referee": 7581,
+        "assistant_referees": [
+            3256,
+            7486
+        ],
+        "fourth_official": 7494
+    },
+    {
+        "game_id": 3764,
+        "main_referee": 7581,
+        "assistant_referees": [
+            3526,
+            3614
+        ],
+        "fourth_official": 7550
+    }
+]
