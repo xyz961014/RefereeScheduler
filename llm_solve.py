@@ -86,8 +86,6 @@ Here is the data:
         eval_res = validate_and_score(data, assignments)
         eval_res["time"] = time_used
 
-            json.dump(eval_res, f, indent=4)
-
         print("=" * 80)
         print("✅ {} {} {} Solution: (time used: {:.2f}s)".format(
                 data_path.stem,
@@ -110,6 +108,7 @@ Here is the data:
             json.dump(assignments, f, indent=4)
 
         with open(f"./results/{data_path.stem}_{model}_{reasoning_effort}_eval.json", "w") as f:
+            json.dump(eval_res, f, indent=4)
 
 if __name__ == "__main__":
     import argparse

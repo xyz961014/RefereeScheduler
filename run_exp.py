@@ -7,8 +7,8 @@ def main():
     data_dir = Path("./data")
     for data_file in data_dir.iterdir():
         if data_file.suffix == ".json" and data_file.name.startswith("202"):
-            minizinc_solve(data_file, timeout=60)
-            #llm_solve(data_file, reasoning_effort="low")
+            #minizinc_solve(data_file, timeout=60)
+            llm_solve(data_file, reasoning_effort="medium")
 
 if __name__ == "__main__":
     main()
