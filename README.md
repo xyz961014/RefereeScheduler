@@ -65,4 +65,598 @@ The objective ensures high-quality officiating while maintaining fairness and fe
 
 ### Data
 
-The dataset consists of anonymized scheduling data provided by the Tsinghua University Student Football Association. It covers 20 days of football matches.
+The dataset consists of anonymous scheduling data provided by the Tsinghua University Student Football Association. It covers 20 days of football matches.
+
+### Results
+
+<table>
+  <tr>
+    <th>Data</th>
+    <th>#Games</th>
+    <th>Method</th>
+    <th>Model</th>
+    <th>Average Score</th>
+    <th>Time</th>
+  </tr>
+  <tr>
+    <td rowspan="5">2024-03-30</td>
+    <td rowspan="5">0</td>
+    <td rowspan="3">MiniZinc</td>
+    <td>chuffed timeout 10s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 60s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 120s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">LLM</td>
+    <td>o3-medium</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>?</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="5">2024-03-31</td>
+    <td rowspan="5">0</td>
+    <td rowspan="3">MiniZinc</td>
+    <td>chuffed timeout 10s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 60s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 120s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">LLM</td>
+    <td>o3-medium</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>?</td>
+    <td></td>
+    <td></td>
+  </tr>
+    <tr>
+    <td rowspan="5">2024-04-06</td>
+    <td rowspan="5">0</td>
+    <td rowspan="3">MiniZinc</td>
+    <td>chuffed timeout 10s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 60s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 120s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">LLM</td>
+    <td>o3-medium</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>?</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="5">2024-04-13</td>
+    <td rowspan="5">0</td>
+    <td rowspan="3">MiniZinc</td>
+    <td>chuffed timeout 10s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 60s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 120s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">LLM</td>
+    <td>o3-medium</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>?</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="5">2024-04-14</td>
+    <td rowspan="5">0</td>
+    <td rowspan="3">MiniZinc</td>
+    <td>chuffed timeout 10s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 60s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 120s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">LLM</td>
+    <td>o3-medium</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>?</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="5">2024-10-12</td>
+    <td rowspan="5">0</td>
+    <td rowspan="3">MiniZinc</td>
+    <td>chuffed timeout 10s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 60s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 120s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">LLM</td>
+    <td>o3-medium</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>?</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="5">2024-10-13</td>
+    <td rowspan="5">0</td>
+    <td rowspan="3">MiniZinc</td>
+    <td>chuffed timeout 10s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 60s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 120s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">LLM</td>
+    <td>o3-medium</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>?</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="5">2024-10-20</td>
+    <td rowspan="5">0</td>
+    <td rowspan="3">MiniZinc</td>
+    <td>chuffed timeout 10s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 60s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 120s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">LLM</td>
+    <td>o3-medium</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>?</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="5">2024-11-17</td>
+    <td rowspan="5">0</td>
+    <td rowspan="3">MiniZinc</td>
+    <td>chuffed timeout 10s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 60s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 120s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">LLM</td>
+    <td>o3-medium</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>?</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="5">2024-11-23</td>
+    <td rowspan="5">0</td>
+    <td rowspan="3">MiniZinc</td>
+    <td>chuffed timeout 10s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 60s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 120s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">LLM</td>
+    <td>o3-medium</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>?</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="5">2024-11-24</td>
+    <td rowspan="5">0</td>
+    <td rowspan="3">MiniZinc</td>
+    <td>chuffed timeout 10s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 60s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 120s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">LLM</td>
+    <td>o3-medium</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>?</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="5">2025-03-08</td>
+    <td rowspan="5">0</td>
+    <td rowspan="3">MiniZinc</td>
+    <td>chuffed timeout 10s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 60s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 120s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">LLM</td>
+    <td>o3-medium</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>?</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="5">2025-03-09</td>
+    <td rowspan="5">0</td>
+    <td rowspan="3">MiniZinc</td>
+    <td>chuffed timeout 10s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 60s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 120s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">LLM</td>
+    <td>o3-medium</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>?</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="5">2025-03-16</td>
+    <td rowspan="5">0</td>
+    <td rowspan="3">MiniZinc</td>
+    <td>chuffed timeout 10s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 60s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 120s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">LLM</td>
+    <td>o3-medium</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>?</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="5">2025-03-22</td>
+    <td rowspan="5">0</td>
+    <td rowspan="3">MiniZinc</td>
+    <td>chuffed timeout 10s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 60s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 120s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">LLM</td>
+    <td>o3-medium</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>?</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="5">2025-03-23</td>
+    <td rowspan="5">0</td>
+    <td rowspan="3">MiniZinc</td>
+    <td>chuffed timeout 10s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 60s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 120s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">LLM</td>
+    <td>o3-medium</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>?</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="5">2025-03-29</td>
+    <td rowspan="5">0</td>
+    <td rowspan="3">MiniZinc</td>
+    <td>chuffed timeout 10s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 60s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 120s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">LLM</td>
+    <td>o3-medium</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>?</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="5">2025-03-30</td>
+    <td rowspan="5">0</td>
+    <td rowspan="3">MiniZinc</td>
+    <td>chuffed timeout 10s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 60s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 120s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">LLM</td>
+    <td>o3-medium</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>?</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="5">2025-04-20</td>
+    <td rowspan="5">0</td>
+    <td rowspan="3">MiniZinc</td>
+    <td>chuffed timeout 10s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 60s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 120s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">LLM</td>
+    <td>o3-medium</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>?</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="5">Total</td>
+    <td rowspan="5">0</td>
+    <td rowspan="3">MiniZinc</td>
+    <td>chuffed timeout 10s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 60s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>chuffed timeout 120s</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">LLM</td>
+    <td>o3-medium</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>?</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+

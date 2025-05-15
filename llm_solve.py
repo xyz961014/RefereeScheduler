@@ -71,19 +71,36 @@ Here is the data:
     )
     # Extract and parse JSON result
     content = response.choices[0].message.content.strip()
-    print("✅ {} {} Solution: (time used: {:.2f}s)".format(
+    time_used = time.time() - time_start
+    print("{} {} Solution: (time used: {:.2f}s)".format(
             model,
             reasoning_effort,
-            time.time() - time_start)
+            time_used)
         )
     print(content)
 
     try:
         json_start = content.find("[")
         assignments = json.loads(content[json_start:])
+
         eval_res = validate_and_score(data, assignments)
+
+        # Save result
+        with open(f"./results/{data_path.stem}_{model}_{reasoning_effort}.json", "w") as f:
+            json.dump(assignments, f, indent=4)
+
+        with open(f"./results/{data_path.stem}_{model}_{reasoning_effort}_eval.json", "w") as f:
+            json.dump(eval_res, f, indent=4)
+
+        print("=" * 80)
+        print("✅ {} {} Solution: (time used: {:.2f}s)".format(
+                model,
+                reasoning_effort,
+                time_used)
+            )
         pprint(eval_res)
         print("Mean Score: {:.2f}".format(eval_res["score"] / eval_res["num_games"]))
+        print("=" * 80)
         return eval_res
     except Exception as e:
         raise ValueError(f"Failed to parse LLM response:\n{content}") from e

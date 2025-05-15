@@ -37,7 +37,8 @@ def minizinc_solve(data_path, timeout):
     # Solve
     time_start = time.time()
     result = instance.solve(timeout=timedelta(seconds=timeout))
-    print("✅ Solution: (time used: {:.2f}s)".format(time.time() - time_start))
+    time_used = time.time() - time_start
+    print("MiniZinc Solution: (time used: {:.2f}s)".format(time_used))
     print(result)
     if result.solution is None:
         return
@@ -58,9 +59,20 @@ def minizinc_solve(data_path, timeout):
             ],
             "fourth_official": referee_ids[int(result["fourth_official"][i]) - 1],
         })
+
     eval_res = validate_and_score(data, assignments)
+
+    # Save result
+    with open(f"./results/{data_path.stem}_minizinc_{timeout}s.json", "w") as f:
+        json.dump(assignments, f, indent=4)
+    with open(f"./results/{data_path.stem}_minizinc_{timeout}s_eval.json", "w") as f:
+        json.dump(eval_res, f, indent=4)
+
+    print("=" * 80)
+    print("✅ MiniZinc Solution: (time used: {:.2f}s)".format(time_used))
     pprint(eval_res)
     print("Mean Score: {:.2f}".format(eval_res["score"] / eval_res["num_games"]))
+    print("=" * 80)
     return eval_res
 
 
