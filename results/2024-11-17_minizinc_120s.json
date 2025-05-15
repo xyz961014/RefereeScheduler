@@ -1,0 +1,74 @@
+[
+    {
+        "game_id": 3568,
+        "main_referee": 3263,
+        "assistant_referees": [
+            7503,
+            7485
+        ],
+        "fourth_official": 7496
+    },
+    {
+        "game_id": 3571,
+        "main_referee": 2468,
+        "assistant_referees": [
+            3260,
+            7486
+        ],
+        "fourth_official": 7552
+    },
+    {
+        "game_id": 3572,
+        "main_referee": 1206,
+        "assistant_referees": [
+            3539,
+            3261
+        ],
+        "fourth_official": 7571
+    },
+    {
+        "game_id": 3573,
+        "main_referee": 7533,
+        "assistant_referees": [
+            7503,
+            3524
+        ],
+        "fourth_official": 7496
+    },
+    {
+        "game_id": 3574,
+        "main_referee": 7568,
+        "assistant_referees": [
+            3263,
+            7506
+        ],
+        "fourth_official": 7494
+    },
+    {
+        "game_id": 3575,
+        "main_referee": 2468,
+        "assistant_referees": [
+            3533,
+            3261
+        ],
+        "fourth_official": 3372
+    },
+    {
+        "game_id": 3576,
+        "main_referee": 1206,
+        "assistant_referees": [
+            7486,
+            3539
+        ],
+        "fourth_official": 3276
+    },
+    {
+        "game_id": 3577,
+        "main_referee": 3260,
+        "assistant_referees": [
+            7506,
+            3524
+        ],
+        "fourth_official": 7568
+    }
+]

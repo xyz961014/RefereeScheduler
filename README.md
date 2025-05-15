@@ -80,11 +80,11 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
   </tr>
   <tr>
     <td rowspan="5">2024-03-30</td>
-    <td rowspan="5">0</td>
+    <td rowspan="5">10</td>
     <td rowspan="3">MiniZinc</td>
     <td>chuffed timeout 10s</td>
-    <td></td>
-    <td></td>
+    <td>0</td>
+    <td>10.27</td>
   </tr>
   <tr>
     <td>chuffed timeout 60s</td>
@@ -370,16 +370,16 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
   </tr>
   <tr>
     <td rowspan="5">2024-11-24</td>
-    <td rowspan="5">0</td>
+    <td rowspan="5">8</td>
     <td rowspan="3">MiniZinc</td>
     <td>chuffed timeout 10s</td>
-    <td></td>
-    <td></td>
+    <td>2027</td>
+    <td>10.22</td>
   </tr>
   <tr>
     <td>chuffed timeout 60s</td>
-    <td></td>
-    <td></td>
+    <td>2027</td>
+    <td>60.24</td>
   </tr>
   <tr>
     <td>chuffed timeout 120s</td>
@@ -602,11 +602,11 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
   </tr>
   <tr>
     <td rowspan="5">2025-04-20</td>
-    <td rowspan="5">0</td>
+    <td rowspan="5">6</td>
     <td rowspan="3">MiniZinc</td>
     <td>chuffed timeout 10s</td>
-    <td></td>
-    <td></td>
+    <td>2721</td>
+    <td>10.22</td>
   </tr>
   <tr>
     <td>chuffed timeout 60s</td>
