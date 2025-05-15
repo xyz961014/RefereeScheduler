@@ -1,0 +1,12 @@
+{
+    "num_games": 10,
+    "valid": false,
+    "score": 0,
+    "errors": [
+        "Referee 3262 not available for game 3312",
+        "Referee 3539 not available for game 3312",
+        "Referee 3256 not available for game 3317",
+        "Referee 3260 not available for game 3318"
+    ],
+    "time": 198.6799659729004
+}
