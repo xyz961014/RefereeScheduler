@@ -57,8 +57,8 @@ constraint
       /\ game_start[g2] < game_end[g1]
   ) (
     all_different([
-      main_ref[g1],    assistant_ref[g1,1], assistant_ref[g1,2], fourth_official[g1],
-      main_ref[g2],    assistant_ref[g2,1], assistant_ref[g2,2], fourth_official[g2]
+      main_ref[g1], assistant_ref[g1,1], assistant_ref[g1,2], fourth_official[g1],
+      main_ref[g2], assistant_ref[g2,1], assistant_ref[g2,2], fourth_official[g2]
     ])
   );
 
@@ -75,8 +75,8 @@ constraint
     forall(r in 1..NumReferees)(
       let {
         var bool: assigned_both =
-          (main_ref[g1] = r \/ assistant_ref[g1,1] = r \/ assistant_ref[g1,2] = r) /\
-          (main_ref[g2] = r \/ assistant_ref[g2,1] = r \/ assistant_ref[g2,2] = r),
+          (main_ref[g1] = r \/ assistant_ref[g1,1] = r \/ assistant_ref[g1,2] = r \/ fourth_official[g1] = r) /\
+          (main_ref[g2] = r \/ assistant_ref[g2,1] = r \/ assistant_ref[g2,2] = r \/ fourth_official[g2] = r),
         bool: different_fields = game_field[g1] != game_field[g2],
         int: gap1 = game_start[g2] - game_end[g1],
         int: gap2 = game_start[g1] - game_end[g2]
@@ -103,7 +103,8 @@ output
 ]
 ++
 [
-  "Game " ++ show(game_id[g]) ++
+  "Game " ++ show(game_id[g]) ++ 
+  " (field " ++ show(game_field[g]) ++ ")" ++
   ": Main: " ++ show(referee_id[main_ref[g]]) ++
   ", Assistants: " ++ show(referee_id[assistant_ref[g,1]]) ++
   ", " ++ show(referee_id[assistant_ref[g,2]]) ++

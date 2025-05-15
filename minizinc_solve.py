@@ -4,14 +4,15 @@ import json
 import minizinc
 import time
 from datetime import timedelta
+from pprint import pprint
 
 from json_to_dzn import generate_dzn
+from evaluation import validate_and_score
 
 import ipdb
 
-
-def main(args):
-    data_path = Path(args.data)
+def minizinc_solve(data_path, timeout):
+    data_path = Path(data_path)
     dzn_path = Path(f"./data/dzn/{data_path.stem}.dzn")
 
     with open(data_path, "r") as f:
@@ -35,7 +36,7 @@ def main(args):
     
     # Solve
     time_start = time.time()
-    result = instance.solve(timeout=timedelta(seconds=args.timeout))
+    result = instance.solve(timeout=timedelta(seconds=timeout))
     print("✅ Solution: (time used: {:.2f}s)".format(time.time() - time_start))
     print(result)
     if result.solution is None:
@@ -57,7 +58,10 @@ def main(args):
             ],
             "fourth_official": referee_ids[int(result["fourth_official"][i]) - 1],
         })
-    #print(json.dumps(assignments, indent=4))
+    eval_res = validate_and_score(data, assignments)
+    pprint(eval_res)
+    print("Mean Score: {:.2f}".format(eval_res["score"] / eval_res["num_games"]))
+    return eval_res
 
 
 if __name__ == "__main__":
@@ -68,4 +72,5 @@ if __name__ == "__main__":
     parser.add_argument("--timeout", type=int, default=60,
                         help="solver timeout")
     args = parser.parse_args()
-    main(args)
+
+    minizinc_solve(args.data, timeout=args.timeout)
