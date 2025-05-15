@@ -1,83 +1,83 @@
 [
     {
         "game_id": 3313,
-        "main_referee": 3262,
-        "assistant_referees": [
-            3111,
-            7486
-        ],
-        "fourth_official": 7498
-    },
-    {
-        "game_id": 3314,
         "main_referee": 2468,
         "assistant_referees": [
-            3518,
-            3367
+            7486,
+            3524
         ],
         "fourth_official": 7523
     },
     {
-        "game_id": 3315,
-        "main_referee": 3260,
+        "game_id": 3314,
+        "main_referee": 3262,
         "assistant_referees": [
-            3367,
-            7533
+            7503,
+            3256
+        ],
+        "fourth_official": 7490
+    },
+    {
+        "game_id": 3315,
+        "main_referee": 2468,
+        "assistant_referees": [
+            7533,
+            7498
         ],
         "fourth_official": 7523
     },
     {
         "game_id": 3316,
-        "main_referee": 71,
+        "main_referee": 3111,
         "assistant_referees": [
             3475,
-            7538
+            7496
         ],
-        "fourth_official": 7496
+        "fourth_official": 7538
     },
     {
         "game_id": 3321,
-        "main_referee": 3263,
+        "main_referee": 3111,
         "assistant_referees": [
-            3534,
-            7490
+            3367,
+            3518
         ],
-        "fourth_official": 7496
+        "fourth_official": 3534
     },
     {
         "game_id": 3322,
-        "main_referee": 3256,
+        "main_referee": 3262,
         "assistant_referees": [
-            3539,
-            3262
-        ],
-        "fourth_official": 7523
-    },
-    {
-        "game_id": 3324,
-        "main_referee": 3260,
-        "assistant_referees": [
-            3526,
-            3263
+            7486,
+            3256
         ],
         "fourth_official": 7496
     },
     {
-        "game_id": 3325,
-        "main_referee": 2468,
+        "game_id": 3324,
+        "main_referee": 3263,
         "assistant_referees": [
-            7494,
-            7490
+            3526,
+            3539
         ],
-        "fourth_official": 7498
+        "fourth_official": 7541
+    },
+    {
+        "game_id": 3325,
+        "main_referee": 71,
+        "assistant_referees": [
+            7503,
+            3367
+        ],
+        "fourth_official": 7494
     },
     {
         "game_id": 3326,
-        "main_referee": 71,
+        "main_referee": 3260,
         "assistant_referees": [
             3539,
-            3256
+            3263
         ],
-        "fourth_official": 7503
+        "fourth_official": 7496
     }
 ]

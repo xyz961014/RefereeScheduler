@@ -1,0 +1,101 @@
+[
+    {
+        "game_id": 3336,
+        "main_referee": 3526,
+        "assistant_referees": [
+            3267,
+            3540
+        ],
+        "fourth_official": 7533
+    },
+    {
+        "game_id": 3337,
+        "main_referee": 3276,
+        "assistant_referees": [
+            3257,
+            3699
+        ],
+        "fourth_official": 7541
+    },
+    {
+        "game_id": 3338,
+        "main_referee": 3533,
+        "assistant_referees": [
+            7508,
+            7530
+        ],
+        "fourth_official": 7494
+    },
+    {
+        "game_id": 3339,
+        "main_referee": 3475,
+        "assistant_referees": [
+            7538,
+            3257
+        ],
+        "fourth_official": 7498
+    },
+    {
+        "game_id": 3340,
+        "main_referee": 3111,
+        "assistant_referees": [
+            7541,
+            7543
+        ],
+        "fourth_official": 3256
+    },
+    {
+        "game_id": 3344,
+        "main_referee": 3262,
+        "assistant_referees": [
+            7485,
+            7494
+        ],
+        "fourth_official": 3544
+    },
+    {
+        "game_id": 3345,
+        "main_referee": 3260,
+        "assistant_referees": [
+            7486,
+            7533
+        ],
+        "fourth_official": 7538
+    },
+    {
+        "game_id": 3346,
+        "main_referee": 1206,
+        "assistant_referees": [
+            3111,
+            7498
+        ],
+        "fourth_official": 7490
+    },
+    {
+        "game_id": 3347,
+        "main_referee": 3263,
+        "assistant_referees": [
+            3267,
+            3526
+        ],
+        "fourth_official": 3260
+    },
+    {
+        "game_id": 3348,
+        "main_referee": 3256,
+        "assistant_referees": [
+            7503,
+            7498
+        ],
+        "fourth_official": 7543
+    },
+    {
+        "game_id": 3349,
+        "main_referee": 3524,
+        "assistant_referees": [
+            7490,
+            7506
+        ],
+        "fourth_official": 3539
+    }
+]
