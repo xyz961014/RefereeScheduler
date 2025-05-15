@@ -84,16 +84,13 @@ Here is the data:
         assignments = json.loads(content[json_start:])
 
         eval_res = validate_and_score(data, assignments)
+        eval_res["time"] = time_used
 
-        # Save result
-        with open(f"./results/{data_path.stem}_{model}_{reasoning_effort}.json", "w") as f:
-            json.dump(assignments, f, indent=4)
-
-        with open(f"./results/{data_path.stem}_{model}_{reasoning_effort}_eval.json", "w") as f:
             json.dump(eval_res, f, indent=4)
 
         print("=" * 80)
-        print("✅ {} {} Solution: (time used: {:.2f}s)".format(
+        print("✅ {} {} {} Solution: (time used: {:.2f}s)".format(
+                data_path.stem,
                 model,
                 reasoning_effort,
                 time_used)
@@ -103,7 +100,16 @@ Here is the data:
         print("=" * 80)
         return eval_res
     except Exception as e:
-        raise ValueError(f"Failed to parse LLM response:\n{content}") from e
+        print(f"Failed to parse LLM response:\n{content}") 
+        assignment = []
+        eval_res = validate_and_score(data, assignments)
+        eval_res["time"] = time_used
+    finally:
+        # Save result
+        with open(f"./results/{data_path.stem}_{model}_{reasoning_effort}.json", "w") as f:
+            json.dump(assignments, f, indent=4)
+
+        with open(f"./results/{data_path.stem}_{model}_{reasoning_effort}_eval.json", "w") as f:
 
 if __name__ == "__main__":
     import argparse
