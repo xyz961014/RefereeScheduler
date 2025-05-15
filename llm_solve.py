@@ -9,6 +9,7 @@ import time
 from evaluation import validate_and_score
 
 openai_api_key = os.getenv("OPENAI_API_KEY")
+deepseek_api_key = os.getenv("DEEPSEEK_API_KEY")
 
 def llm_solve(data_path, model="o3", reasoning_effort="medium"):
     """
@@ -58,9 +59,13 @@ Here is the data:
 {json.dumps(data, indent=2)}
 '''
 """
-    client = OpenAI(api_key=openai_api_key)
+    if model.startswith("deepseek"):
+        client = OpenAI(api_key=deepseek_api_key,
+                        base_url="https://api.deepseek.com")
+    else:
+        client = OpenAI(api_key=openai_api_key)
     # Call OpenAI Chat API
-    print(prompt)
+    #print(prompt)
     time_start = time.time()
     response = client.chat.completions.create(
         model=model,
@@ -80,6 +85,7 @@ Here is the data:
     print(content)
 
     try:
+        content = content.replace("```", "").strip()
         json_start = content.find("[")
         assignments = json.loads(content[json_start:])
 
@@ -98,8 +104,8 @@ Here is the data:
         print("=" * 80)
         return eval_res
     except Exception as e:
-        print(f"Failed to parse LLM response:\n{content}") 
-        assignment = []
+        print(f"Failed to parse LLM response:\n{content}\n Error: {e}") 
+        assignments = []
         eval_res = validate_and_score(data, assignments)
         eval_res["time"] = time_used
     finally:
@@ -116,10 +122,13 @@ if __name__ == "__main__":
     parser.add_argument("--data", type=str, 
                         default="./data/sample.json",
                         help="input data")
+    parser.add_argument("--model", type=str, 
+                        default="o4-mini",
+                        help="model")
     parser.add_argument("--reasoning_effort", type=str, 
                         default="medium",
                         choices=["low", "medium", "high"],
                         help="input data")
     args = parser.parse_args()
 
-    llm_solve(args.data, reasoning_effort=args.reasoning_effort)
+    llm_solve(args.data, model=args.model, reasoning_effort=args.reasoning_effort)

@@ -79,8 +79,8 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <th>Time</th>
   </tr>
   <tr>
-    <td rowspan="5">2024-03-30</td>
-    <td rowspan="5">10</td>
+    <td rowspan="6">2024-03-30</td>
+    <td rowspan="6">10</td>
     <td rowspan="3">MiniZinc</td>
     <td>chuffed timeout 10s</td>
     <td>0</td>
@@ -97,7 +97,7 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td>120.25</td>
   </tr>
   <tr>
-    <td rowspan="2">LLM</td>
+    <td rowspan="3">LLM</td>
     <td>o3-medium</td>
     <td></td>
     <td></td>
@@ -108,8 +108,13 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td></td>
   </tr>
   <tr>
-    <td rowspan="5">2024-03-31</td>
-    <td rowspan="5">9</td>
+    <td>DeepSeek-R1-high</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="6">2024-03-31</td>
+    <td rowspan="6">9</td>
     <td rowspan="3">MiniZinc</td>
     <td>chuffed timeout 10s</td>
     <td>3044</td>
@@ -126,7 +131,7 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td>120.25</td>
   </tr>
   <tr>
-    <td rowspan="2">LLM</td>
+    <td rowspan="3">LLM</td>
     <td>o3-medium</td>
     <td></td>
     <td></td>
@@ -136,9 +141,14 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td></td>
     <td></td>
   </tr>
-    <tr>
-    <td rowspan="5">2024-04-06</td>
-    <td rowspan="5">11</td>
+  <tr>
+    <td>DeepSeek-R1-high</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="6">2024-04-06</td>
+    <td rowspan="6">11</td>
     <td rowspan="3">MiniZinc</td>
     <td>chuffed timeout 10s</td>
     <td>0</td>
@@ -155,7 +165,7 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td>120.26</td>
   </tr>
   <tr>
-    <td rowspan="2">LLM</td>
+    <td rowspan="3">LLM</td>
     <td>o3-medium</td>
     <td></td>
     <td></td>
@@ -166,8 +176,13 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td></td>
   </tr>
   <tr>
-    <td rowspan="5">2024-04-13</td>
-    <td rowspan="5">7</td>
+    <td>DeepSeek-R1-high</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="6">2024-04-13</td>
+    <td rowspan="6">7</td>
     <td rowspan="3">MiniZinc</td>
     <td>chuffed timeout 10s</td>
     <td>2592</td>
@@ -184,7 +199,7 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td>83.99</td>
   </tr>
   <tr>
-    <td rowspan="2">LLM</td>
+    <td rowspan="3">LLM</td>
     <td>o3-medium</td>
     <td></td>
     <td></td>
@@ -195,8 +210,13 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td></td>
   </tr>
   <tr>
-    <td rowspan="5">2024-04-14</td>
-    <td rowspan="5">8</td>
+    <td>DeepSeek-R1-high</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="6">2024-04-14</td>
+    <td rowspan="6">8</td>
     <td rowspan="3">MiniZinc</td>
     <td>chuffed timeout 10s</td>
     <td>4294</td>
@@ -213,7 +233,7 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td>120.23</td>
   </tr>
   <tr>
-    <td rowspan="2">LLM</td>
+    <td rowspan="3">LLM</td>
     <td>o3-medium</td>
     <td></td>
     <td></td>
@@ -224,8 +244,13 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td></td>
   </tr>
   <tr>
-    <td rowspan="5">2024-10-12</td>
-    <td rowspan="5">8</td>
+    <td>DeepSeek-R1-high</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="6">2024-10-12</td>
+    <td rowspan="6">8</td>
     <td rowspan="3">MiniZinc</td>
     <td>chuffed timeout 10s</td>
     <td>3608</td>
@@ -242,7 +267,7 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td>120.23</td>
   </tr>
   <tr>
-    <td rowspan="2">LLM</td>
+    <td rowspan="3">LLM</td>
     <td>o3-medium</td>
     <td></td>
     <td></td>
@@ -253,8 +278,13 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td></td>
   </tr>
   <tr>
-    <td rowspan="5">2024-10-13</td>
-    <td rowspan="5">9</td>
+    <td>DeepSeek-R1-high</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="6">2024-10-13</td>
+    <td rowspan="6">9</td>
     <td rowspan="3">MiniZinc</td>
     <td>chuffed timeout 10s</td>
     <td>1409</td>
@@ -271,7 +301,7 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td>120.25</td>
   </tr>
   <tr>
-    <td rowspan="2">LLM</td>
+    <td rowspan="3">LLM</td>
     <td>o3-medium</td>
     <td></td>
     <td></td>
@@ -282,8 +312,13 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td></td>
   </tr>
   <tr>
-    <td rowspan="5">2024-10-20</td>
-    <td rowspan="5">9</td>
+    <td>DeepSeek-R1-high</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="6">2024-10-20</td>
+    <td rowspan="6">9</td>
     <td rowspan="3">MiniZinc</td>
     <td>chuffed timeout 10s</td>
     <td>4466</td>
@@ -300,7 +335,7 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td>120.22</td>
   </tr>
   <tr>
-    <td rowspan="2">LLM</td>
+    <td rowspan="3">LLM</td>
     <td>o3-medium</td>
     <td></td>
     <td></td>
@@ -311,8 +346,13 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td></td>
   </tr>
   <tr>
-    <td rowspan="5">2024-11-17</td>
-    <td rowspan="5">8</td>
+    <td>DeepSeek-R1-high</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="6">2024-11-17</td>
+    <td rowspan="6">8</td>
     <td rowspan="3">MiniZinc</td>
     <td>chuffed timeout 10s</td>
     <td>1862</td>
@@ -329,7 +369,7 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td>120.23</td>
   </tr>
   <tr>
-    <td rowspan="2">LLM</td>
+    <td rowspan="3">LLM</td>
     <td>o3-medium</td>
     <td></td>
     <td></td>
@@ -340,8 +380,13 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td></td>
   </tr>
   <tr>
-    <td rowspan="5">2024-11-23</td>
-    <td rowspan="5">7</td>
+    <td>DeepSeek-R1-high</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="6">2024-11-23</td>
+    <td rowspan="6">7</td>
     <td rowspan="3">MiniZinc</td>
     <td>chuffed timeout 10s</td>
     <td>3045</td>
@@ -358,7 +403,7 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td>120.23</td>
   </tr>
   <tr>
-    <td rowspan="2">LLM</td>
+    <td rowspan="3">LLM</td>
     <td>o3-medium</td>
     <td></td>
     <td></td>
@@ -369,8 +414,13 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td></td>
   </tr>
   <tr>
-    <td rowspan="5">2024-11-24</td>
-    <td rowspan="5">8</td>
+    <td>DeepSeek-R1-high</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="6">2024-11-24</td>
+    <td rowspan="6">8</td>
     <td rowspan="3">MiniZinc</td>
     <td>chuffed timeout 10s</td>
     <td>2027</td>
@@ -387,7 +437,7 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td>120.22</td>
   </tr>
   <tr>
-    <td rowspan="2">LLM</td>
+    <td rowspan="3">LLM</td>
     <td>o3-medium</td>
     <td></td>
     <td></td>
@@ -398,8 +448,13 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td></td>
   </tr>
   <tr>
-    <td rowspan="5">2025-03-08</td>
-    <td rowspan="5">7</td>
+    <td>DeepSeek-R1-high</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="6">2025-03-08</td>
+    <td rowspan="6">7</td>
     <td rowspan="3">MiniZinc</td>
     <td>chuffed timeout 10s</td>
     <td>2398</td>
@@ -416,7 +471,7 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td>120.23</td>
   </tr>
   <tr>
-    <td rowspan="2">LLM</td>
+    <td rowspan="3">LLM</td>
     <td>o3-medium</td>
     <td></td>
     <td></td>
@@ -427,8 +482,13 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td></td>
   </tr>
   <tr>
-    <td rowspan="5">2025-03-09</td>
-    <td rowspan="5">8</td>
+    <td>DeepSeek-R1-high</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="6">2025-03-09</td>
+    <td rowspan="6">8</td>
     <td rowspan="3">MiniZinc</td>
     <td>chuffed timeout 10s</td>
     <td>3037</td>
@@ -445,7 +505,7 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td>120.22</td>
   </tr>
   <tr>
-    <td rowspan="2">LLM</td>
+    <td rowspan="3">LLM</td>
     <td>o3-medium</td>
     <td></td>
     <td></td>
@@ -456,8 +516,13 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td></td>
   </tr>
   <tr>
-    <td rowspan="5">2025-03-16</td>
-    <td rowspan="5">11</td>
+    <td>DeepSeek-R1-high</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="6">2025-03-16</td>
+    <td rowspan="6">11</td>
     <td rowspan="3">MiniZinc</td>
     <td>chuffed timeout 10s</td>
     <td>3885</td>
@@ -474,7 +539,7 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td>120.24</td>
   </tr>
   <tr>
-    <td rowspan="2">LLM</td>
+    <td rowspan="3">LLM</td>
     <td>o3-medium</td>
     <td></td>
     <td></td>
@@ -485,8 +550,13 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td></td>
   </tr>
   <tr>
-    <td rowspan="5">2025-03-15</td>
-    <td rowspan="5">10</td>
+    <td>DeepSeek-R1-high</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="6">2025-03-15</td>
+    <td rowspan="6">10</td>
     <td rowspan="3">MiniZinc</td>
     <td>chuffed timeout 10s</td>
     <td>3339</td>
@@ -503,7 +573,7 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td>120.24</td>
   </tr>
   <tr>
-    <td rowspan="2">LLM</td>
+    <td rowspan="3">LLM</td>
     <td>o3-medium</td>
     <td></td>
     <td></td>
@@ -514,8 +584,13 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td></td>
   </tr>
   <tr>
-    <td rowspan="5">2025-03-22</td>
-    <td rowspan="5">9</td>
+    <td>DeepSeek-R1-high</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="6">2025-03-22</td>
+    <td rowspan="6">9</td>
     <td rowspan="3">MiniZinc</td>
     <td>chuffed timeout 10s</td>
     <td>2982</td>
@@ -532,7 +607,7 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td>120.23</td>
   </tr>
   <tr>
-    <td rowspan="2">LLM</td>
+    <td rowspan="3">LLM</td>
     <td>o3-medium</td>
     <td></td>
     <td></td>
@@ -543,8 +618,13 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td></td>
   </tr>
   <tr>
-    <td rowspan="5">2025-03-23</td>
-    <td rowspan="5">7</td>
+    <td>DeepSeek-R1-high</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="6">2025-03-23</td>
+    <td rowspan="6">7</td>
     <td rowspan="3">MiniZinc</td>
     <td>chuffed timeout 10s</td>
     <td>2783</td>
@@ -561,7 +641,7 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td>120.21</td>
   </tr>
   <tr>
-    <td rowspan="2">LLM</td>
+    <td rowspan="3">LLM</td>
     <td>o3-medium</td>
     <td></td>
     <td></td>
@@ -572,8 +652,13 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td></td>
   </tr>
   <tr>
-    <td rowspan="5">2025-03-29</td>
-    <td rowspan="5">12</td>
+    <td>DeepSeek-R1-high</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="6">2025-03-29</td>
+    <td rowspan="6">12</td>
     <td rowspan="3">MiniZinc</td>
     <td>chuffed timeout 10s</td>
     <td>3981</td>
@@ -590,7 +675,7 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td>120.25</td>
   </tr>
   <tr>
-    <td rowspan="2">LLM</td>
+    <td rowspan="3">LLM</td>
     <td>o3-medium</td>
     <td></td>
     <td></td>
@@ -601,8 +686,13 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td></td>
   </tr>
   <tr>
-    <td rowspan="5">2025-03-30</td>
-    <td rowspan="5">8</td>
+    <td>DeepSeek-R1-high</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="6">2025-03-30</td>
+    <td rowspan="6">8</td>
     <td rowspan="3">MiniZinc</td>
     <td>chuffed timeout 10s</td>
     <td>3961</td>
@@ -619,7 +709,7 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td>120.22</td>
   </tr>
   <tr>
-    <td rowspan="2">LLM</td>
+    <td rowspan="3">LLM</td>
     <td>o3-medium</td>
     <td></td>
     <td></td>
@@ -630,8 +720,13 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td></td>
   </tr>
   <tr>
-    <td rowspan="5">2025-04-20</td>
-    <td rowspan="5">6</td>
+    <td>DeepSeek-R1-high</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="6">2025-04-20</td>
+    <td rowspan="6">6</td>
     <td rowspan="3">MiniZinc</td>
     <td>chuffed timeout 10s</td>
     <td>2721</td>
@@ -648,7 +743,7 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td>26.11</td>
   </tr>
   <tr>
-    <td rowspan="2">LLM</td>
+    <td rowspan="3">LLM</td>
     <td>o3-medium</td>
     <td></td>
     <td></td>
@@ -659,8 +754,13 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td></td>
   </tr>
   <tr>
-    <td rowspan="5">Total (per game)</td>
-    <td rowspan="5">172</td>
+    <td>DeepSeek-R1-high</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="6">Total (per game)</td>
+    <td rowspan="6">172</td>
     <td rowspan="3">MiniZinc</td>
     <td>chuffed timeout 10s</td>
     <td>322.28</td>
@@ -677,13 +777,18 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td>113.72</td>
   </tr>
   <tr>
-    <td rowspan="2">LLM</td>
+    <td rowspan="3">LLM</td>
     <td>o3-medium</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>o4-mini-high</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>DeepSeek-R1-high</td>
     <td></td>
     <td></td>
   </tr>
