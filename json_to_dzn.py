@@ -22,23 +22,27 @@ def generate_dzn(data):
             field_map[g["field"]] = field_id
             field_id += 1
 
+    game_id = []
     game_start = []
     game_end = []
     difficulty = []
     game_field = []
 
     for g in games:
+        game_id.append(g["game_id"])
         game_start.append(time_to_minutes(g["time_begin"], time_baseline))
         game_end.append(time_to_minutes(g["time_end"], time_baseline))
         difficulty.append(g["level_factor"])
         game_field.append(field_map[g["field"]])
 
+    referee_id = []
     main_exp = []
     assist_exp = []
     available_slots = []
 
 
     for r in referees:
+        referee_id.append(r["referee_id"])
         main_exp.append(r["main_referee_experience"])
         assist_exp.append(r["assistant_referee_experience"])
         slots = []
@@ -53,17 +57,19 @@ def generate_dzn(data):
     lines.append(f"NumReferees = {len(referees)};")
     lines.append(f"NumFields = {len(field_map)};")
 
+    lines.append(f"game_id = [{', '.join(map(str, game_id))}];")
     lines.append(f"game_start = [{', '.join(map(str, game_start))}];")
     lines.append(f"game_end = [{', '.join(map(str, game_end))}];")
     lines.append(f"difficulty = [{', '.join(map(str, difficulty))}];")
     lines.append(f"game_field = [{', '.join(map(str, game_field))}];")
+    lines.append(f"referee_id = [{', '.join(map(str, referee_id))}];")
     lines.append(f"main_exp = [{', '.join(map(str, main_exp))}];")
     lines.append(f"assist_exp = [{', '.join(map(str, assist_exp))}];")
 
-    lines.append("available_slots = array3d(1..NumReferees, 1..10, 1..2,[")
+    lines.append("available_slots = array3d(1..NumReferees, 1..3, 1..2,[")
     for slots in available_slots:
         slot_strs = [f"{s[0]},{s[1]}" for s in slots]
-        padded = slot_strs + ["0,0"] * (10 - len(slot_strs))  # pad to fixed width if needed
+        padded = slot_strs + ["0,0"] * (3 - len(slot_strs))  # pad to fixed width if needed
         lines.append("  " + ", ".join(padded) + ",")
     lines.append("]);")
 
