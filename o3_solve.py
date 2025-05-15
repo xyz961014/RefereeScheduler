@@ -3,6 +3,10 @@ import json
 from openai import OpenAI
 import os
 import ipdb
+from pprint import pprint
+import time
+
+from evaluation import validate_and_score
 
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
@@ -56,6 +60,8 @@ Here is the data:
 """
     client = OpenAI(api_key=openai_api_key)
     # Call OpenAI Chat API
+    print(prompt)
+    time_start = time.time()
     response = client.chat.completions.create(
         model=model,
         reasoning_effort=reasoning_effort,
@@ -63,14 +69,22 @@ Here is the data:
             {"role": "user", "content": prompt}
         ],
     )
-    
     # Extract and parse JSON result
-    content = response.choices[0].message["content"].strip()
+    content = response.choices[0].message.content.strip()
+    print("✅ {} {} Solution: (time used: {:.2f}s)".format(
+            model,
+            reasoning_effort,
+            time.time() - time_start)
+        )
+    print(content)
+
     try:
         json_start = content.find("[")
-        json_data = json.loads(content[json_start:])
-        ipdb.set_trace()
-        return json_data
+        assignments = json.loads(content[json_start:])
+        eval_res = validate_and_score(data, assignments)
+        pprint(eval_res)
+        print("Mean Score: {:.2f}".format(eval_res["score"] / eval_res["num_games"]))
+        return eval_res
     except Exception as e:
         raise ValueError(f"Failed to parse LLM response:\n{content}") from e
 
