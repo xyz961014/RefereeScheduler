@@ -1,0 +1,13 @@
+{
+    "num_games": 6,
+    "valid": false,
+    "score": 0,
+    "errors": [
+        "Referee 3260 over fatigue limit (4 roles)",
+        "Referee 3526 over fatigue limit (3 roles)",
+        "Referee 3367 over fatigue limit (3 roles)",
+        "Referee 3260 has overlapping games 3779 and 3800",
+        "Referee 3367 has overlapping games 3779 and 3800"
+    ],
+    "time": 575.4014399051666
+}

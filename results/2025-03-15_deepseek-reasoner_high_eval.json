@@ -1,0 +1,21 @@
+{
+    "num_games": 10,
+    "valid": false,
+    "score": 0,
+    "errors": [
+        "Referee 7550 not available for game 3711",
+        "Referee 3533 over fatigue limit (3 roles)",
+        "Referee 7506 lacks 30-min travel between 3708 and 3690",
+        "Referee 7535 lacks 30-min travel between 3684 and 3689",
+        "Referee 3539 has overlapping games 3689 and 3685",
+        "Referee 7565 has overlapping games 3685 and 3690",
+        "Referee 3533 lacks 30-min travel between 3691 and 3706",
+        "Referee 3524 lacks 30-min travel between 3708 and 3690",
+        "Referee 7533 has overlapping games 3690 and 3711",
+        "Referee 7496 has overlapping games 3711 and 3691",
+        "Referee 7550 has overlapping games 3706 and 3731",
+        "Referee 3517 has overlapping games 3706 and 3731",
+        "Referee 7503 has overlapping games 3706 and 3731"
+    ],
+    "time": 502.821093082428
+}

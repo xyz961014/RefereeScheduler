@@ -1,0 +1,10 @@
+{
+    "num_games": 7,
+    "valid": false,
+    "score": 0,
+    "errors": [
+        "Referee 7550 lacks 30-min travel between 3578 and 3507",
+        "Referee 7500 has overlapping games 3580 and 3579"
+    ],
+    "time": 517.107194185257
+}

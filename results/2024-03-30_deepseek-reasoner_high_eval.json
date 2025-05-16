@@ -1,0 +1,24 @@
+{
+    "num_games": 10,
+    "valid": false,
+    "score": 0,
+    "errors": [
+        "Referee 7490 not available for game 3311",
+        "Referee 7490 not available for game 3334",
+        "Referee 3539 over fatigue limit (3 roles)",
+        "Referee 3533 over fatigue limit (3 roles)",
+        "Referee 7490 over fatigue limit (3 roles)",
+        "Referee 3526 over fatigue limit (3 roles)",
+        "Referee 3539 has overlapping games 3309 and 3310",
+        "Referee 3539 has overlapping games 3310 and 3319",
+        "Referee 3533 has overlapping games 3309 and 3323",
+        "Referee 3533 has overlapping games 3323 and 3319",
+        "Referee 7500 has overlapping games 3323 and 3310",
+        "Referee 3734 has overlapping games 3334 and 3311",
+        "Referee 7490 has overlapping games 3334 and 3311",
+        "Referee 7490 has overlapping games 3311 and 3312",
+        "Referee 7530 has overlapping games 3334 and 3311",
+        "Referee 7530 has overlapping games 3311 and 3312"
+    ],
+    "time": 422.33172392845154
+}

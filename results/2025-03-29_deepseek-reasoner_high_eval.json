@@ -1,0 +1,30 @@
+{
+    "num_games": 12,
+    "valid": false,
+    "score": 0,
+    "errors": [
+        "Referees not unique in game 3751",
+        "Referees not unique in game 3752",
+        "Referees not unique in game 3754",
+        "Referees not unique in game 3763",
+        "Referee 3524 over fatigue limit (3 roles)",
+        "Referee 3526 over fatigue limit (4 roles)",
+        "Referee 3539 over fatigue limit (3 roles)",
+        "Referee 7550 over fatigue limit (3 roles)",
+        "Referee 3524 has overlapping games 3741 and 3753",
+        "Referee 3526 has overlapping games 3743 and 3759",
+        "Referee 3539 has overlapping games 3743 and 3752",
+        "Referee 3734 has overlapping games 3743 and 3759",
+        "Referee 7486 lacks 30-min travel between 3745 and 3751",
+        "Referee 3276 lacks 30-min travel between 3751 and 3764",
+        "Referee 7494 has overlapping games 3751 and 3751",
+        "Referee 3614 has overlapping games 3759 and 3752",
+        "Referee 7550 has overlapping games 3763 and 3763",
+        "Referee 7550 has overlapping games 3752 and 3752",
+        "Referee 7581 has overlapping games 3757 and 3753",
+        "Referee 7581 has overlapping games 3753 and 3754",
+        "Referee 7581 has overlapping games 3754 and 3754",
+        "Referee 7567 has overlapping games 3761 and 3763"
+    ],
+    "time": 464.47646284103394
+}

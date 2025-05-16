@@ -1,0 +1,13 @@
+{
+    "num_games": 8,
+    "valid": false,
+    "score": 0,
+    "errors": [
+        "Referee 7538 has overlapping games 3701 and 3675",
+        "Referee 7538 has overlapping games 3675 and 3702",
+        "Referee 7506 lacks 30-min travel between 3688 and 3680",
+        "Referee 7578 has overlapping games 3700 and 3680",
+        "Referee 7581 has overlapping games 3702 and 3703"
+    ],
+    "time": 659.7417180538177
+}

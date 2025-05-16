@@ -1,0 +1,9 @@
+{
+    "num_games": 7,
+    "valid": false,
+    "score": 0,
+    "errors": [
+        "Referee 7506 lacks 30-min travel between 3740 and 3728"
+    ],
+    "time": 438.7346909046173
+}

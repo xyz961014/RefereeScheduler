@@ -1,0 +1,17 @@
+{
+    "num_games": 9,
+    "valid": false,
+    "score": 0,
+    "errors": [
+        "Referee 3526 over fatigue limit (3 roles)",
+        "Referee 3261 over fatigue limit (3 roles)",
+        "Referee 3526 lacks 30-min travel between 3528 and 3494",
+        "Referee 7503 has overlapping games 3495 and 3491",
+        "Referee 7506 has overlapping games 3491 and 3529",
+        "Referee 7550 has overlapping games 3495 and 3491",
+        "Referee 3261 has overlapping games 3494 and 3493",
+        "Referee 3261 has overlapping games 3493 and 3604",
+        "Referee 7485 has overlapping games 3493 and 3604"
+    ],
+    "time": 344.1362671852112
+}

@@ -1,0 +1,19 @@
+{
+    "num_games": 9,
+    "valid": false,
+    "score": 0,
+    "errors": [
+        "Referee 2468 not available for game 3315",
+        "Referee 3256 over fatigue limit (3 roles)",
+        "Referee 2468 over fatigue limit (3 roles)",
+        "Referee 3526 has overlapping games 3324 and 3313",
+        "Referee 3256 has overlapping games 3314 and 3321",
+        "Referee 3256 has overlapping games 3321 and 3322",
+        "Referee 7486 has overlapping games 3314 and 3321",
+        "Referee 7486 has overlapping games 3321 and 3322",
+        "Referee 2468 has overlapping games 3325 and 3315",
+        "Referee 7533 has overlapping games 3315 and 3316",
+        "Referee 3734 has overlapping games 3325 and 3315"
+    ],
+    "time": 379.2583725452423
+}

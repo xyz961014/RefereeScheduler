@@ -1,0 +1,9 @@
+{
+    "num_games": 7,
+    "valid": false,
+    "score": 0,
+    "errors": [
+        "Referee 3262 has overlapping games 3367 and 3373"
+    ],
+    "time": 261.0329165458679
+}
