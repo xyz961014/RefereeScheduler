@@ -65,11 +65,137 @@ The objective ensures high-quality officiating while maintaining fairness and fe
 
 ### Data
 
-The dataset consists of anonymous scheduling data provided by the Tsinghua University Student Football Association. It covers 20 days of football matches.
+The dataset consists of anonymous scheduling data provided by the Tsinghua University Student Football Association, with minor modifications. It covers 20 days of football matches.
+
+#### Data Sample
+
+
+```json
+{
+    "games": [
+        {
+            "game_id": 3801,
+            "time_begin": "2025-04-20 10:00:00",
+            "time_end": "2025-04-20 12:00:00",
+            "field": "Field_36",
+            "level_factor": 1
+        },
+        {
+            "game_id": 3802,
+            "time_begin": "2025-04-20 10:00:00",
+            "time_end": "2025-04-20 12:00:00",
+            "field": "Field_36",
+            "level_factor": 1
+        }
+    ],
+    "referees": [
+        {
+            "referee_id": 3260,
+            "available_slots": [
+                {
+                    "from": "2025-04-20 00:00:00",
+                    "to": "2025-04-21 00:00:00"
+                }
+            ],
+            "main_referee_experience": 147,
+            "assistant_referee_experience": 99
+        },
+        {
+            "referee_id": 3263,
+            "available_slots": [
+                {
+                    "from": "2025-04-20 00:00:00",
+                    "to": "2025-04-21 00:00:00"
+                }
+            ],
+            "main_referee_experience": 135,
+            "assistant_referee_experience": 101
+        },
+        {
+            "referee_id": 3276,
+            "available_slots": [
+                {
+                    "from": "2025-04-20 10:00:00",
+                    "to": "2025-04-20 13:00:00"
+                },
+                {
+                    "from": "2025-04-20 15:00:00",
+                    "to": "2025-04-20 19:00:00"
+                }
+            ],
+            "main_referee_experience": 7,
+            "assistant_referee_experience": 13
+        },
+        {
+            "referee_id": 3367,
+            "available_slots": [
+                {
+                    "from": "2025-04-20 00:00:00",
+                    "to": "2025-04-21 00:00:00"
+                }
+            ],
+            "main_referee_experience": 12,
+            "assistant_referee_experience": 46
+        },
+        {
+            "referee_id": 3526,
+            "available_slots": [
+                {
+                    "from": "2025-04-20 00:00:00",
+                    "to": "2025-04-21 00:00:00"
+                }
+            ],
+            "main_referee_experience": 57,
+            "assistant_referee_experience": 106
+        },
+        {
+            "referee_id": 3640,
+            "available_slots": [
+                {
+                    "from": "2025-04-20 10:00:00",
+                    "to": "2025-04-20 15:00:00"
+                },
+                {
+                    "from": "2025-04-20 19:00:00",
+                    "to": "2025-04-20 23:00:00"
+                }
+            ],
+            "main_referee_experience": 1,
+            "assistant_referee_experience": 32
+        },
+        {
+            "referee_id": 7503,
+            "available_slots": [
+                {
+                    "from": "2025-04-20 00:00:00",
+                    "to": "2025-04-20 12:00:00"
+                }
+            ],
+            "main_referee_experience": 18,
+            "assistant_referee_experience": 59
+        },
+        {
+            "referee_id": 7533,
+            "available_slots": [
+                {
+                    "from": "2025-04-20 10:00:00",
+                    "to": "2025-04-21 00:00:00"
+                }
+            ],
+            "main_referee_experience": 6,
+            "assistant_referee_experience": 24
+        }
+    ]
+}
+```
+
+
 
 ### Metric
 
+$Score = \sum_{game} \texttt{game\_difficulty} * (\texttt{main\_referee\_experience} + \\ \texttt{assistant\_referee\_1\_experience} + \texttt{assistant\_referee\_2\_experience}) $
 
+$Score = 0 \ \ \text{if any constraint is not satisfied}$
 
 ### Results
 
@@ -797,4 +923,3 @@ The dataset consists of anonymous scheduling data provided by the Tsinghua Unive
     <td>404.10</td>
   </tr>
 </table>
-
